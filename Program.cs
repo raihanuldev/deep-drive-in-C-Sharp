@@ -1,12 +1,20 @@
 ﻿Console.WriteLine("Hello world Iam here to Explore C-Sharp! ");
 
 
-// Operator
 
-int x =5;
-x+=4;
+// Math
+int maxValue = Math.Max(6,109);
+int minvalue = Math.Min(42,21);
+double sqrt = Math.Sqrt(64);
+Math.Abs(-12.2);
 
-// Assignment operator, aithmatic,logical operator,comparisom
+
+// // Operator
+
+// int x =5;
+// x+=4;
+
+// // Assignment operator, aithmatic,logical operator,comparisom
 
 
 // // Take User Input
