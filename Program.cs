@@ -1,11 +1,19 @@
 ﻿Console.WriteLine("Hello world Iam here to Explore C-Sharp! ");
 
 
-// Take User Input
-Console.WriteLine("Enter your UserName: ");
-string userName = Console.ReadLine();
-Console.WriteLine("userName: "+ userName);
-// Console.WriteLine($"userName: {userName}");
+// Operator
+
+int x =5;
+x+=4;
+
+// Assignment operator, aithmatic,logical operator,comparisom
+
+
+// // Take User Input
+// Console.WriteLine("Enter your UserName: ");
+// string userName = Console.ReadLine();
+// Console.WriteLine("userName: "+ userName);
+// // Console.WriteLine($"userName: {userName}");
 
 
 // int myNum = 100;
