@@ -1,17 +1,22 @@
 ﻿Console.WriteLine("Hello world Iam here to Explore C-Sharp! ");
 
 
-int i = 0;
-while (true)
+for(int i=0; i < 10; i++)
 {
-    i++;
-    if (i == 10)
-    {
-        Console.WriteLine("LOOP Are breaked broo");
-        break;
-    }
     Console.WriteLine(i);
 }
+
+// int i = 0;
+// while (true)
+// {
+//     i++;
+//     if (i == 10)
+//     {
+//         Console.WriteLine("LOOP Are breaked broo");
+//         break;
+//     }
+//     Console.WriteLine(i);
+// }
 
 
 // string input = Console.ReadLine();
@@ -39,11 +44,11 @@ string greeting = "Nice to meet you";
 
 // Special Char
 string text = "We are so called \"vondo\"from the gruops ";
-Console.WriteLine(text);
+// Console.WriteLine(text);
 
-// access the string
-Console.WriteLine(greeting[1]);
-Console.WriteLine(greeting.IndexOf("e"));
+// // access the string
+// Console.WriteLine(greeting[1]);
+// Console.WriteLine(greeting.IndexOf("e"));
 
 // // Math
 // int maxValue = Math.Max(6,109);
