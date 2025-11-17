@@ -1,95 +1,118 @@
-﻿
+﻿using System;
 
-static void mymethod()
+class Program
 {
-    Console.WriteLine("This is from Method");
+    // Class-level methods → can be overloaded
+    static int MethodOverloading(int x, int y)
+    {
+        Console.WriteLine("Int Version method overloaded");
+        return x + y;
+    }
+
+    static float MethodOverloading(float x, float y)
+    {
+        Console.WriteLine("Float version called");
+        return x + y;
+    }
+
+    static void Main()
+    {
+        Console.WriteLine(MethodOverloading(12, 22));           // int → 34
+        Console.WriteLine(MethodOverloading(12.5f, 13.5f));     // float → 26
+    }
 }
-static int recivedPatametar(int num1, int num2)
-{
-    return num1+num2;
-}
-
-Console.WriteLine("Hello world Iam here to Explore C-Sharp! ");
-mymethod();
-Console.WriteLine(recivedPatametar(12,22));
-
-// string[] cars={"BMS","XYS","SSSS"};
-// cars.Append("BMW");
 
 
-// for(int i=0; i < 10; i++)
-// {
-//     Console.WriteLine(i);
-// }
+// // static void mymethod()
+// // {
+// //     Console.WriteLine("This is from Method");
+// // }
+// // static int recivedPatametar(int num1, int num2)
+// // {
+// //     return num1+num2;
+// // }
 
-// int i = 0;
-// while (true)
-// {
-//     i++;
-//     if (i == 10)
-//     {
-//         Console.WriteLine("LOOP Are breaked broo");
-//         break;
-//     }
-//     Console.WriteLine(i);
-// }
+// // Console.WriteLine("Hello world Iam here to Explore C-Sharp! ");
+// // mymethod();
+// // Console.WriteLine(recivedPatametar(12,22));
 
-
-// string input = Console.ReadLine();
-// int age;
-// int.TryParse(input,out age);
-
-// if (age >= 18)
-// {
-//     Console.WriteLine("THis Person are adult! ");
-// }
-// else
-// {
-//     Console.WriteLine("This not adult");
-// }
-
-// Boolean
-bool isCSharpFun = true;
+// // string[] cars={"BMS","XYS","SSSS"};
+// // cars.Append("BMW");
 
 
-// String
-string greeting = "Nice to meet you";
-// Console.WriteLine("Length of string: "+greeting.Length);
-// Console.WriteLine("UPPER ALL=> "+ greeting.ToUpper());
-// Console.WriteLine("LOWER ALL=> "+ greeting.ToLower());
+// // for(int i=0; i < 10; i++)
+// // {
+// //     Console.WriteLine(i);
+// // }
 
-// Special Char
-string text = "We are so called \"vondo\"from the gruops ";
-// Console.WriteLine(text);
-
-// // access the string
-// Console.WriteLine(greeting[1]);
-// Console.WriteLine(greeting.IndexOf("e"));
-
-// // Math
-// int maxValue = Math.Max(6,109);
-// int minvalue = Math.Min(42,21);
-// double sqrt = Math.Sqrt(64);
-// Math.Abs(-12.2);
+// // int i = 0;
+// // while (true)
+// // {
+// //     i++;
+// //     if (i == 10)
+// //     {
+// //         Console.WriteLine("LOOP Are breaked broo");
+// //         break;
+// //     }
+// //     Console.WriteLine(i);
+// // }
 
 
-// // Operator
+// // string input = Console.ReadLine();
+// // int age;
+// // int.TryParse(input,out age);
 
-// int x =5;
-// x+=4;
+// // if (age >= 18)
+// // {
+// //     Console.WriteLine("THis Person are adult! ");
+// // }
+// // else
+// // {
+// //     Console.WriteLine("This not adult");
+// // }
 
-// // Assignment operator, aithmatic,logical operator,comparisom
+// // Boolean
+// bool isCSharpFun = true;
 
 
-// // Take User Input
-// Console.WriteLine("Enter your UserName: ");
-// string userName = Console.ReadLine();
-// Console.WriteLine("userName: "+ userName);
-// // Console.WriteLine($"userName: {userName}");
+// // String
+// string greeting = "Nice to meet you";
+// // Console.WriteLine("Length of string: "+greeting.Length);
+// // Console.WriteLine("UPPER ALL=> "+ greeting.ToUpper());
+// // Console.WriteLine("LOWER ALL=> "+ greeting.ToLower());
+
+// // Special Char
+// string text = "We are so called \"vondo\"from the gruops ";
+// // Console.WriteLine(text);
+
+// // // access the string
+// // Console.WriteLine(greeting[1]);
+// // Console.WriteLine(greeting.IndexOf("e"));
+
+// // // Math
+// // int maxValue = Math.Max(6,109);
+// // int minvalue = Math.Min(42,21);
+// // double sqrt = Math.Sqrt(64);
+// // Math.Abs(-12.2);
 
 
-// int myNum = 100;
-// double myDouble = myNum; //Type Casting
+// // // Operator
 
-// string myStr = Convert.ToString(myNum);
-// Console.WriteLine("This is type Casting Converted string: "+ myStr);
+// // int x =5;
+// // x+=4;
+
+// // // Assignment operator, aithmatic,logical operator,comparisom
+
+
+// // // Take User Input
+// // Console.WriteLine("Enter your UserName: ");
+// // string userName = Console.ReadLine();
+// // Console.WriteLine("userName: "+ userName);
+// // // Console.WriteLine($"userName: {userName}");
+
+
+// // int myNum = 100;
+// // double myDouble = myNum; //Type Casting
+
+// // string myStr = Convert.ToString(myNum);
+// // Console.WriteLine("This is type Casting Converted string: "+ myStr);
