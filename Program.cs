@@ -3,11 +3,17 @@
 
 // String
 string greeting = "Nice to meet you";
-Console.WriteLine("Length of string: "+greeting.Length);
-Console.WriteLine("UPPER ALL=> "+ greeting.ToUpper());
-Console.WriteLine("LOWER ALL=> "+ greeting.ToLower());
+// Console.WriteLine("Length of string: "+greeting.Length);
+// Console.WriteLine("UPPER ALL=> "+ greeting.ToUpper());
+// Console.WriteLine("LOWER ALL=> "+ greeting.ToLower());
 
+// Special Char
+string text = "We are so called \"vondo\"from the gruops ";
+Console.WriteLine(text);
 
+// access the string
+Console.WriteLine(greeting[1]);
+Console.WriteLine(greeting.IndexOf("e"));
 
 // // Math
 // int maxValue = Math.Max(6,109);
