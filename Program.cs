@@ -1,5 +1,20 @@
 ﻿Console.WriteLine("Hello world Iam here to Explore C-Sharp! ");
 
+
+
+string input = Console.ReadLine();
+int age;
+int.TryParse(input,out age);
+
+if (age >= 18)
+{
+    Console.WriteLine("THis Person are adult! ");
+}
+else
+{
+    Console.WriteLine("This not adult");
+}
+
 // Boolean
 bool isCSharpFun = true;
 
