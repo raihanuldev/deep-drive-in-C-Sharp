@@ -1,10 +1,13 @@
 ﻿Console.WriteLine("Hello world Iam here to Explore C-Sharp! ");
 
+string[] cars={"BMS","XYS","SSSS"};
+cars.Append("BMW");
 
-for(int i=0; i < 10; i++)
-{
-    Console.WriteLine(i);
-}
+
+// for(int i=0; i < 10; i++)
+// {
+//     Console.WriteLine(i);
+// }
 
 // int i = 0;
 // while (true)
